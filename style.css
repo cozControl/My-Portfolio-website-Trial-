@@ -1,0 +1,52 @@
+.gradient-background {
+    background: linear-gradient(300deg, #9fd8f2, #fbf9f9, #245a90);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.col-lg-6{
+    color: black;
+}
+.lead{
+  color: orangered;
+}
+
+.col-md-6{
+    height:5px;
+}
+.card{
+  display: flex;
+  position: relative;
+  height: 100px;
+  width: 200px;
+  justify-content: center;
+}
+.container-skills{
+  display: flex;
+  position: relative;
+  margin-left: 180px;
+  space: 10px;
+}
+.contact-me {
+  color: #000000;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.button1{
+ font-family: sans-serif; 
+ color: black;
+ transform:translate(rgb(208, 40, 10));
+}
